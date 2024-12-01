@@ -7,20 +7,28 @@ EventPulse is a demo event management app that showcases best practices in Flutt
 
 Users can browse upcoming events fetched via the Eventbrite API.
 Event details such as title, date, time, and description are displayed in a clean, intuitive layout.
+
 2. RSVP Management
 
 Users can mark events as "Interested" or RSVP to receive reminders.
 Firebase Cloud Messaging is used to send reminders for RSVP'd events.
+
 3. Custom Views
 
 A custom card layout for event listings.
 Custom-designed RSVP status chips (Interested, Going).
+
+
 4. Search Functionality
 
 Users can search for events by keywords or categories using Eventbrite's search API.
+
+
 5. Push Notifications
 
 Firebase Cloud Messaging is implemented to send real-time notifications for event updates or reminders.
+
+
 6. Event Filters
 
 Users can filter events by date, location, and category.
@@ -39,11 +47,15 @@ Users can add events to their favorites list, saved locally using shared prefere
 This project follows the Clean Architecture pattern for better code organization and scalability:
 
 Presentation Layer: Flutter Widgets for UI.
+
 Domain Layer: Business logic and use cases.
+
 Data Layer: Handles API integration and Firebase interactions.
+
 
 # Tech Stack
 1. Flutter & Dart
+
 The primary framework for building the application.
 
 2. Firebase Integration
